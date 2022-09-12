@@ -1,0 +1,27 @@
+body {
+    color:#fff;
+    font-family: 'nunito semibold';
+    text-align: center;
+}
+
+.gridBoxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, minmax(300px, auto)); 
+    gap: 10px;
+    max-width: 960ox;
+    margin: 0, auto;
+}
+
+.gridBoxes div {
+    background-color: #3bbced;
+    padding: 30px;
+}
+
+.gridBoxes div:nth-child(even){
+    background-color: #777;
+}
+
+
+
+
